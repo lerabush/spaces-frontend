@@ -7,6 +7,8 @@ https://www.figma.com/file/hWFGiyLZ4Ukooqy5v46oqe/%D0%9F%D1%80%D0%BE%D1%82%D0%BE
 
 Ссылка на диск с демо и презентацией: https://drive.google.com/drive/folders/12UDm7Div77GXURfbk9D3fXgXI50JpjYC?usp=sharing
 
+Мобайл: https://github.com/OwlCodR/smart_city_hack
+
 ## Available Scripts
 
 In the project directory, you can run:
