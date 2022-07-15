@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Дневник мечты от команды Spaces (веб-версия)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Создан с использованием HTML, CSS, JavaScript, React, react-router
+
 
 ## Available Scripts
 
