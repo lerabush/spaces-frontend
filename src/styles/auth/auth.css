@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+
+.welcome {
+    background: url('../../images/background1.png') no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+#welcomeTxtBox p {
+    display: block;
+}
+
+.nextButton {
+    border: none;
+    border-radius: 12px;
+    width: 300px;
+    height: 56px;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 25px;
+    background: linear-gradient(263.18deg, #0E053A 22.81%, #BE70A2 90.06%);
+    transition: 1s
+
+}
+
+.nextButton:hover {
+    cursor: pointer;
+}
+
+.nextButtonClicked {
+    background: linear-gradient(265.88deg, rgba(80, 45, 97, 0.95) 26.88%, #804A7D 42.46%, #BE70A2 65.83%, #C87FAE 80.11%, #D081B4 91.36%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+@media screen and (max-width: 1180px) {
+    #welcomeTxtBox {
+        padding-right: 100px;
+    }
+}
+
+.userInput {
+    border: #41008b solid 1px;
+    border-radius: 10px;
+    width: 250px;
+    height: 45px;
+    align-items: center;
+    padding-left: 5px;
+    display: flex;
+    margin: 20px auto 20px auto;
+    background: #F9F6FF;
+}
+.userInput input{
+    background-color: inherit;
+}
+input::placeholder {
+    font-family: Jost;
+    color: #41008b;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.emojiCollection img {
+    width: 40px;
+}
+
+.emojiCollection label {
+    margin-left: 10px;
+}
+
+.emojiCollection label > input {
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute;
+}
+
+.emojiCollection label > input + img { /* IMAGE STYLES */
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.emojiCollection label > input:checked + img { /* (RADIO CHECKED) IMAGE STYLES */
+    border: solid rgba(224, 225, 202, 0.7);
+    border-radius: 100%;
+}
+
+.quiz {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.characterItem {
+    margin: 15px 10px 0 0;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    color:#41008b;
+    border-radius:25px;
+    max-width: 300px;
+}
+.characterItem:hover{
+    border: 2px solid #41008b;
+    cursor: pointer;
+}
